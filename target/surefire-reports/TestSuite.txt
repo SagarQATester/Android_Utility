@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 79.635 s <<< FAILURE! - in TestSuite
+verifyInvestorAbleToCreateNewAccount(com.qa.test.suite.TC_002_RedemptionFlowDDT)  Time elapsed: 71.069 s  <<< FAILURE!
+java.lang.AssertionError: Error Message :Amount cannot exceed the value of clear units available for redemption. Please re-enter
+	at com.qa.test.suite.TC_002_RedemptionFlowDDT.verifyInvestorAbleToCreateNewAccount(TC_002_RedemptionFlowDDT.java:77)
+
